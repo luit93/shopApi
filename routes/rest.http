@@ -1,0 +1,9 @@
+# user api lists
+
+###  post
+POST http://localhost:8000/api/users/testpost
+Content-Type: application/json
+
+{
+  "username":"luit"
+}
