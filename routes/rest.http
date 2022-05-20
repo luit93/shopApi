@@ -7,3 +7,16 @@ Content-Type: application/json
 {
   "username":"luit"
 }
+
+
+### register
+
+POST  http://localhost:8000/api/auth/register
+Content-Type: application/json
+
+{
+  "username":"luits",
+  "email":"luit@s.co",
+  "password":"mama"
+
+}
