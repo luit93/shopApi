@@ -29,3 +29,14 @@ Content-Type: application/json
     "username":"luit5",
     "password":"mama5"
   }
+
+### update
+PUT http://localhost:8000/api/users/628948323a9a8cb1c72e0085
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyODk0ODMyM2E5YThjYjFjNzJlMDA4NSIsImlzQWRtaW4iOmZhbHNlLCJpYXQiOjE2NTMzMDQ3NDMsImV4cCI6MTY1MzQ3NzU0M30.Kl4lRlEnS8pCHWJOdyEGOEP6t-3qNsROOXB4sYuYls0
+
+  {
+    "username":"luitupdated"
+    
+  }
+
